@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" /> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="about-html">
+          <h1 id="top">HTML</h1>
+            <div class="pair">
+                <div class="abstract">
+                  <h1 class="inbox">заголовки</h1>
+                  <h2 class="inbox"> разных</h2>
+                  <h4 class="inbox"> размеров</h4>
+                  <h6 class="inbox">от h1 до h6 </h6>
+                </div>
+                <div class="example">
+                  <p class="code"><em class="comment">&lt;!-- Headlines --&gt;</em></p>
+                  <p class="code">&lt;h1&gt; <span class="white">заголовки</span> &lt;/h1&gt;</p>
+                  <p class="code">&lt;h2&gt;  <span class="white">разных</span>  &lt;/h2&gt;</p>
+                  <p class="code">&lt;h4&gt;  <span class="white">размеров</span>  &lt;/h4&gt;</p>
+                  <p class="code">&lt;h6&gt;  <span class="white">от h1 до h6</span>  &lt;/h6&gt;</p>
+                </div>
+            </div>
+            <div class="pair">
+                <div class="abstract">
+                  <p><strong>Параграф</strong>: Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Vero recusandae voluptas
+                  </p>
+                </div>
+                <div class="example">
+                &lt;p&gt;<span class="white">Параграф: Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Vero recusandae voluptas </span>&lt;/p&gt;
+                </div>
+            </div>
+            <div class="pair">
+                <div class="abstract">
+                  <img src="img/logos.png" alt="logos" width="200" class="image">
+                </div>
+                <div class="example">
+                  <p class="code"><em class="comment">&lt;!-- Images --&gt;</em></p>
+                  <p class="code">&lt;img <br>
+                    &nbsp;&nbsp;src="img.jpg"  <br>
+                    &nbsp;&nbsp;alt="logo" <br>
+                    &nbsp;&nbsp;width="100"&gt;</p>
+                </div>
+            </div>
+            <div class="pair">
+                <div class="abstract">
+                  <ol>
+                    <li>Упорядоченный список</li>
+                    <li><strong><em>ordered list</em></strong> as &lt;ol&gt;</li>
+                  </ol>
+                  <ul>
+                    <li>Неупорядоченный список</li>
+                    <li><strong><em>unordered list</em></strong> as &lt;ul&gt;</li>
+                  </ul>
+                </div>
+                <div class="example">
+                  <p class="code"><em class="comment">&lt;!-- Lists --&gt;</em></p>
+                  <p class="code">&lt;ul&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;...&lt;/li&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;...&lt;/li&gt;<br>
+                    &lt;/ul&gt;<br>
+                  </p>
+
+                </div>
+            </div>
+            <div class="pair">
+                <div class="abstract">
+                  <h4 class="center">Ссылки</h4>
+                  <a href="https://aol.com" target="_blank">Прямая </a>и <a href="re.html">отн.</a> ссылка.
+                  <p><strong><em>ссылка</em></strong>  target="_blank"</p>
+                  <a href="#top">якорь </a> ссылка на тег
+                  с id на этой же web-странице
+                </div>
+                <div class="example">
+                  <p class="code"><em class="comment"> &lt;!-- Links --&gt; </em></p>
+                  <p class="code">&lt;a href="https://aol.com" target="_blank"&gt;<span class="white">Прямая</span>&lt;/a&gt;</p>
+                  <p class="code">&lt;a href="re.html"&gt;<span class="white">отн.</span>&lt;/a&gt;</p>
+                  <p class="code">&lt;a href="#top"&gt;<span class="white">якорь</span>&lt;/a&gt;</p>
+
+                </div>
+            </div>
+            <div class="pair">
+              <div class="abstract">
+                <p><strong>Stongtxt</strong></p>
+                <p><em>Em text</em></p>
+                <p>&lt;br&gt; - перенос строки</p>
+                <p class="comment">Комментарий</p>
+                <p> &copy;</p>
+            </div>
+            <div class="example">
+              <p class="code">&lt;strong&gt;<span class="white">Strongtxt</span>&lt;/strong&gt;</p>
+              <p class="code">&lt;em&gt;<span class="white">Em text</span>&lt;/em&gt;</p>
+              <p class="code">&lt;br&gt;</p>
+              <p class="comment"> &lt;!-- comment --&gt;</p>
+              <p class="code"><em class="comment"> &lt;!-- Спецсимвол --&gt; </em>&amp;copy;</p>
+            </div>
+            </div>
+        </div>
+        <div class="about-css">
+          <h1>CSS</h1>
+            <div class="pair">
+                <div class="abstract">
+                  <h4 class="center">Селекторы</h4>
+                  <ul class="demo">
+                    <li>
+                      <strong>
+                        <em>tag</em>
+                      </strong> &lt;h1&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;
+                    </li>
+                    <li>
+                      <strong>
+                        <em>class</em>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <em>id</em>
+                      </strong>
+                    <span class="comment"> (for link &amp; JS only)</span>
+                    </li>
+                    <li>&lt;p&gt;&lt;i&gt;
+                      <strong>
+                        <em class="comment">
+                          child
+                        </em>
+                      </strong>&lt;/i&gt;&lt;/p&gt;
+                    </li>
+                  </ul>
+                </div>
+                <div class="example">
+                  <p class="code">
+                    <em class="comment"> &lt;!-- Селекторы --&gt; </em>
+                  </p>
+                  <p class="code">
+                    <span class="firebrick">h1</span>,
+                    <span class="firebrick">p </span>
+                    <span class="white">{ color:</span> black;
+                    <span class="white">}</span>
+                  </p>
+                  <p class="code"> .class1
+                    <span class="white"> { color:</span> black;
+                      <span class="white">}</span>
+                  </p>
+                  <p class="code">
+                    <span class="cornflowerblue">#my-id </span>
+                    <span class="white">{ color:</span> black;
+                    <span class="white">}</span>
+                  </p>
+                  <p class="code">
+                    <span class="firebrick">p</span>
+                    <span class="firebrick">i </span>
+                    <span class="white">{ color:</span> black;
+                    <span class="white">}</span>
+                  </p>
+                </div>
+            </div>
+            <div class="pair">
+                <div class="abstract">
+                  <h4 class="center">Цвет</h4>
+                  <p class="black-white">Цвет фона</p>
+                  <p class="black-white">Цвет текста</p>
+                  <p>#fff или #ffffff - белый</p>
+                  <p>#000 или #000000 - черный</p>
+                </div>
+                <div class="example">
+                  <p class="code">
+                    <span class="firebrick">p </span>
+                    <span class="white"> {</span>
+                    </p>
+                  <p class="code">
+                    <span class="white">&nbsp;&nbsp;background:</span> #000;
+                  </p>
+                  <p class="code">
+                    <span class="white">&nbsp;&nbsp;color:</span> #fff;
+                  </p>
+                  <p class="code">
+                    <span class="white">}</span>
+                  </p>
+                </div>
+            </div>
+            <div class="pair">
+                <div class="abstract">
+                  <h4 class="center">Шрифт</h4>
+                    <p>Размер шрифта</p>
+                    <p>Семейство шрифта</p>
+                </div>
+                <div class="example">
+                  <p class="code">
+                    <span class="firebrick">p </span>
+                    <span class="white"> {</span>
+                  </p>
+                  <p class="code"><span class="white">&nbsp;&nbsp;font-size:</span> 16px;</p>
+                  <p class="code"><span class="white">&nbsp;&nbsp;font-family:</span> sans-serif;</p>
+                  <p class="code">
+                    <span class="white">}</span>
+                  </p>
+                </div>
+            </div>
+            <div class="pair">
+                <div class="abstract">
+                  <h4>Еденицы измерения</h4>
+                  <p><strong><em>px</em></strong> - абсолютная</p>
+                  <h4>относительные</h4>
+                  <p><strong><em>%</em></strong> - от предка (parent)</p>
+                  <p><strong><em>rem</em></strong> - от font-size в body</p>
+                </div>
+                <div class="example">
+                  <p class="code"><span class="firebrick">body </span><span class="white"> {</span></p>
+                  <p class="code"><span class="white">&nbsp;&nbsp;font-size:</span> 16px;</p>
+                  <p class="code"><span class="comment">&lt;!-- 1rem = 16px; --&gt;</span></p>
+                  <p class="code"><span class="comment">&lt;!-- 100% = 16px; для font-size child of body--&gt;</span></p>
+                </div>
+            </div>
+            <div class="pair">
+                <div class="abstract">
+                  <h4 class="center">Отступ слева</h4>
+                  <p>Между блоками &lt;div&gt;</p>
+                  <p>Внутри (от) границ блока</p>
+                  <p>Отступ первой строки &lt;p&gt;</p>
+                </div>
+                <div class="example">
+                  <p class="code"><span class="firebrick">div </span><span class="white"> {</span></p>
+                  <p class="code"><span class="white">&nbsp;&nbsp;margin-left:</span> 10px;</p>
+                  <p class="code"><span class="white">&nbsp;&nbsp;padding-left:</span> 10px;</p>
+                  <p class="code"><span class="white">&nbsp;&nbsp;text-indent:</span> 10px;</p>
+                  <p class="code">
+                    <span class="white">}</span>
+                  </p>
+                </div>
+           </div>
+            <div class="pair">
+                <div class="abstract">
+                  <h4 class="center">X - центрирование</h4>
+                  <p><strong><em>Блок</em></strong> &lt;div&gt; внутри блока &lt;div&gt;</p>
+                  <p><strong><em>Текст</em></strong> &lt;div&gt; внутри блока &lt;div&gt;</p>
+                </div>
+                <div class="example">
+                  <p class="code"><span class="firebrick">div </span><span class="white"> {</span></p>
+                  <p class="code"><span class="white">&nbsp;&nbsp;margin:</span> auto;</p>
+                  <p class="code"><span class="white">&nbsp;&nbsp;text-align:</span> center;</p>
+                  <p class="code">
+                    <span class="white">}</span>
+                  </p>
+                </div>
+           </div>
+          <div class="pair">
+            <div class="abstract all-bd">
+              <h4 class="center">Границы блоков</h4>
+              <div class="top-bd"><p>Верхняя граница</p></div>
+              <div class="btm-bd"><p>Нижняя граница</p></div>
+            </div>
+            <div class="example">
+              <p class="code"><span class="firebrick">div </span>
+                <span class="white"> {</span>
+              </p>
+              <p class="code">
+                <span class="white">&nbsp;&nbsp;border-top:</span> 2px dotted red;
+              </p>
+              <p class="code">
+                <span class="white">&nbsp;&nbsp;border-bottom:</span>
+                  2px solid #000;&nbsp;&nbsp;
+                <span class="white">}</span>
+              </p>
+            </div>
+          </div>
+          <div class="pair">
+            <div class="abstract">
+              <h4>Перенос на новую строку</h4>
+              <p>Перенесут </p>
+              <p><strong><em>div</em></strong></p>
+              <p><strong><em>p</em></strong></p>
+              <p>Не перенесут
+                <strong><em>span</em></strong>,
+                <strong><em>em</em></strong>
+              </p>
+            </div>
+            <div class="example">
+              <p class="code">&lt;div&gt;&nbsp;&nbsp;
+                <span class="white">div</span>&nbsp;&nbsp;&lt;/div&gt;
+              </p>
+              <p class="code">&lt;p&gt;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="white">p</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;
+              </p>
+              <br>
+              <p class="code">&lt;span&gt;&nbsp;
+                <span class="white">span,</span>&nbsp;&lt;/span&gt;
+                &lt;em&gt;&nbsp;
+                <span class="white">
+                  &nbsp;&nbsp;em
+                </span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/em&gt;
+              </p>
+            </div>
+          </div>
+          <!-- <div class="pair">
+            <div class="abstract">
+            </div>
+            <div class="example">
+            </div>
+          </div> -->
+       </div>
+  </div>
+</body>
+
+</html>
